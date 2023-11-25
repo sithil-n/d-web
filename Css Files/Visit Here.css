@@ -1,0 +1,72 @@
+#body{
+    background-image: url(../img/bg.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: rgba(247,14,53,0.749);
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    width: auto;
+}
+
+ul.navigation{
+    display: flex;
+    list-style: none;
+    background-attachment: fixed;
+}
+
+ul.navigation li{
+    width: 200px;
+}
+
+ul.navigation li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 200%;
+}
+
+ul.navigation li a:active{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+
+.active{
+    background-color: white;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+
+.head{
+    font-size: 600%;
+    text-align: center;
+    text-decoration: underline;
+    color: white;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 5px 5px 7px #000000;
+}
+
+.courses{
+    background-color: white;
+    height: auto;
+    width: 100%;
+    line-height: 400%;
+}
+
+
+ul.c1 li{
+    font-size: 200%;
+    font-weight: 300;
+    text-decoration: dotted;
+    justify-content: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
